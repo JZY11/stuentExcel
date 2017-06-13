@@ -2,7 +2,6 @@ package demo.util;
 
 import com.mysql.jdbc.Driver;
 
-import java.net.URL;
 import java.sql.*;
 
 /**
@@ -21,7 +20,7 @@ public class Db {
         }
         return null;
     }
-    public static void close(ResultSet resultSet, PreparedStatement preparedStatement,Connection connection){
+    public static void close(PreparedStatement resultSet, ResultSet preparedStatement, Connection connection){
         if (resultSet != null) {
             try {
                 resultSet.close();
