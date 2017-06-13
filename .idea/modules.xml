@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stuentExcel.iml" filepath="$PROJECT_DIR$/.idea/modules/stuentExcel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stuentExcel_main.iml" filepath="$PROJECT_DIR$/.idea/modules/stuentExcel_main.iml" group="stuentExcel" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/stuentExcel_test.iml" filepath="$PROJECT_DIR$/.idea/modules/stuentExcel_test.iml" group="stuentExcel" />
+    </modules>
+  </component>
+</project>
