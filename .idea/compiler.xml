@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="stuentExcel_main" target="1.5" />
-      <module name="stuentExcel_test" target="1.5" />
+      <module name="stuentExcel_main" target="1.8" />
+      <module name="stuentExcel_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -8,9 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Title</title>
   </head>
   <body>
-  $END$
+  <h1>首页</h1>
+  <form action="student" method="post">
+    <input type="hidden" name="action" value="login">
+    <input type="text" name="mobile" placeholder="手机号"><br>
+    <input type="password" name="password" placeholder="密码"><br>
+    <input type="submit" value="登录">
+  </form>
   </body>
 </html>
