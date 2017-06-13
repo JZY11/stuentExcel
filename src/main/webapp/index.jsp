@@ -18,6 +18,12 @@
     <input type="password" name="password" placeholder="密码"><br>
     <input type="submit" value="登录">
   </form>
+  <%
+    String message = (String) request.getAttribute("message");
+    if (message != null) {
+      out.print(message);
+    }
+  %>
   
   <p>
     <a href="signup.jsp">注册</a>
